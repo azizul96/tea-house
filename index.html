@@ -18,13 +18,13 @@
 </head>
 
 <body>
-    <header class="max-w-screen-xl m-auto my-20 px-5 md:px-10 lg:px-16">
+    <header class="container mx-auto my-20 ">
         <div class="flex justify-between items-center flex-col lg:flex-row">
             <div>
                 <h1 class="text-5xl font-bold">It's good <br>tea time at The <br>Tea House</h1>
                 <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.
                 </p>
-                <button class="btn btn-primary">Get Started</button>
+                <button class="btn text-white bg-gradient-to-r from-orange-400 to-red-500 ">Explore More <i class="fa-solid fa-arrow-up"></i></button>
             </div>
             <div class="relative">
                 <img src="./images/banner.png" class="max-w-sm"/>
@@ -38,8 +38,8 @@
             </div>
         </div>
     </header>
-    <main>
-        <section class="max-w-screen-xl m-auto my-10 px-5 md:px-10 lg:px-16">
+    <main class="container mx-auto">
+        <section class="my-10 ">
             <h2 class="text-center text-3xl font-bold mb-5">Our Featured Products</h2>
             <p class="text-center mb-20">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br>by injected humour, or randomised words which don't look even slightly believable. </p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -82,7 +82,7 @@
             </div>
         </section>
         <!--  -->
-        <section class="max-w-screen-xl m-auto mt-32 my-10 px-5 md:px-10 lg:px-16 ">
+        <section class=" mt-32 my-10">
             <div class="flex gap-12 flex-col lg:flex-row">
                 <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
                     <div class="h-36 bg-gradient-to-r from-gray-500 to-white-500 rounded-lg">
@@ -108,7 +108,107 @@
                 </div>
             </div>
         </section>
+        <!--  -->
+        <section class=" mt-32 my-10 px-16 py-24 rounded-xl bg-gradient-to-r from-orange-400 to-red-400">
+          <div class="flex flex-col lg:flex-row gap-12 ">
+            <div class="flex items-center lg:pr-28">
+              <div class=" text-white space-y-5">
+                <h2 class="text-3xl font-bold ">Meet Our Super <br>Clients</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+              </p>
+              <button class="btn text-orange-600">Show All</button>
+              </div>
+            </div>
+            <div class="relative">
+              <!-- next review -->
+              <div class="p-10 opacity-40 mb-16 rounded-lg bg-white relative z-10">
+                <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white" src="./images/client.png" alt="">
+                <p class="mb-5">
+                  We are providing the best and suitable home insurance services for the people who are interested to treatment
+                </p>
+                <h4 class="font-bold">Ilham Yuda</h4>
+                <p class="text-base">Businessman</p>
+                <div class="flex justify-end">
+                  <img src="./images/circles.png" alt="">
+                </div>
+              </div>
+              <!-- Current review -->
+              <div class="p-10 rounded-lg bg-white absolute top-36 lg:-left-32 z-20 lg:w-[430px]">
+                <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white" src="./images/client.png" alt="">
+                <p class="mb-5">
+                  We are providing the best and suitable home insurance services for the people who are interested to treatment
+                </p>
+                <h4 class="font-bold">Ilham Yuda</h4>
+                <p class="text-base">Businessman</p>
+                <div class="flex justify-end">
+                  <img src="./images/circles.png" alt="">
+                </div>
+              </div>
+              <!-- previous review -->
+              <div class="p-10 opacity-40 rounded-lg bg-white relative z-10">
+                <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white" src="./images/client.png" alt="">
+                <p class="mb-5">
+                  We are providing the best and suitable home insurance services for the people who are interested to treatment
+                </p>
+                <h4 class="font-bold">Ilham Yuda</h4>
+                <p class="text-base">Businessman</p>
+                <div class="flex justify-end">
+                  <img src="./images/circles.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
+    <!-- Footer section  -->
+    <footer class="px-36 py-10 bg-base-200 text-base-content">
+      <div class="flex justify-between mb-10">
+        <img src="./images/cup.png" alt="">
+        <p class="">
+          <span>Ready to get strated?</span>
+          <button class="btn text-white bg-gradient-to-r from-orange-400 to-red-500 ">Get Started</button>
+        </p>
+      </div>
+      <div class="footer ">
+        <div>
+          <span class="footer-title">Services</span> 
+          <a class="link link-hover">Branding</a> 
+          <a class="link link-hover">Design</a> 
+          <a class="link link-hover">Marketing</a> 
+          <a class="link link-hover">Advertisement</a>
+        </div> 
+        <div>
+          <span class="footer-title">Company</span> 
+          <a class="link link-hover">About us</a> 
+          <a class="link link-hover">Contact</a> 
+          <a class="link link-hover">Jobs</a> 
+          <a class="link link-hover">Press kit</a>
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Terms of use</a> 
+          <a class="link link-hover">Privacy policy</a> 
+          <a class="link link-hover">Cookie policy</a>
+        </div> 
+        <div>
+          <span class="footer-title">Subscribe to our <br>newsletter</span> 
+          <div class="form-control w-80">
+            <label class="label">
+              
+            </label> 
+            <div class="relative">
+              <input type="text" placeholder="username@site.com" class="py-4 bg-transparent border-b-2 border-black outline-none" /> 
+              <button class="btn btn-primary absolute top-0 right-0 rounded-full bg-gradient-to-r from-orange-400 to-red-500 text-white"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center bg-base-200 mt-10">
+        <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+      </div>
+    </footer>
 </body>
 
 </html>
